@@ -20,6 +20,9 @@ namespace RosterManagement
         /// <param name="wave">Refers to the Wave number</param>
         public void Add(string cadet, int wave)
         {
+            _roster.Key=wave;
+            List<string> name= new 
+            name.Add(cadet);
         }
 
         /// <summary>
